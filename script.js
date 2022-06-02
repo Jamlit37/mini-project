@@ -6,6 +6,7 @@
 
 //* As a user, I want the option to play again whether I win or lose.
 
+
 //* As a user, I want to see my total wins, ties, and losses after each round.
 
 
@@ -18,3 +19,11 @@ let i = Math.floor(Math.random() * array.length)
 
 let randomPick = array[i]
 console.log(array[i])
+
+var playagain = confirm ("Would you like to play again?")
+if (playagain===true){
+}else { alert ("See you soon!");
+};    
+
+//* As a user, I want to see my total wins, ties, and losses after each round.
+
