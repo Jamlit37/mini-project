@@ -7,3 +7,14 @@
 //* As a user, I want the option to play again whether I win or lose.
 
 //* As a user, I want to see my total wins, ties, and losses after each round.
+
+
+// this is the user prompt part and randomPick function
+let customerInput = prompt(`Please enter "Rock", "Paper" or "Scissors
+"`)
+let array = ['Rock', 'Paper', 'Scissors']
+
+let i = Math.floor(Math.random() * array.length)
+
+let randomPick = array[i]
+console.log(array[i])
