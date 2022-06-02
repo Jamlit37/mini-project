@@ -5,7 +5,10 @@
 // * As a user, I expect the computer to choose R, P, or S in return.
 
 //* As a user, I want the option to play again whether I win or lose.
-
+var playagain = confirm ("Would you like to play again?")
+if (playagain===true){
+}else { alert ("See you soon!");
+};    
 
 //* As a user, I want to see my total wins, ties, and losses after each round.
 
